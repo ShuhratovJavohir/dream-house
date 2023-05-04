@@ -18,7 +18,7 @@
     </a>
 
     <p class="sidebar__text">
-      apartmentrenovation
+      ремонт_квартир_под_ключ
     </p>
 
     <span class="sidebar__hr"></span>
@@ -52,11 +52,11 @@
       </div>
 
       <div class="header__rigth">
-        <button class="call">request for a call</button>
-        <div class="tel">
+        <button class="call" id="call">Заказать звонок</button>
+        <div class="tel" >
           <div class="call__circle-1">
             <div class="call__circle-2">
-              <img class="tel__icon" src="assets/images/icons/tel.svg" alt="">
+              <img id="call" class="tel__icon" src="assets/images/icons/tel.svg" alt="">
             </div>
           </div>
         </div>
@@ -64,18 +64,99 @@
 
     </div>
   </div>
+
+  <div class="callBlock">
+    <form class="call-form">
+      <input class="call__input" type="text" placeholder="Ваше имя">
+      <hr class="form-hr">
+      <input class="call__input" type="text" placeholder="Ваш телефон">
+      <hr class="form-hr">
+      <button class="call__btn">Заказать звонок<img class="call__btn-arrow" src="assets/images/arrow.svg" alt=""></button>
+    </form>
+  </div>
   
   <div class="menu">
-    <h1>Hello world</h1>
+    <nav class="menu__nav">
+      <ul class="menu__nav-list">
+        <li class="list__item">
+          <a class="list__item-link" href="#">
+            styles of <br> rennovation <br>
+            <img class="arrow" src="assets/images/arrow.svg" alt="">
+          </a>
+        </li>
+        <hr class="menu-hr">
+        <li class="list__item">
+          <a class="list__item-link" href="#">
+            Costs <br>
+            <img class="arrow" src="assets/images/arrow.svg" alt="">
+          </a>
+        </li>
+        <hr class="menu-hr">
+        <li class="list__item">
+          <a class="list__item-link" href="#">
+            5 steps <br> to DREAM HOUSE <br>
+            <img class="arrow" src="assets/images/arrow.svg" alt="">
+          </a>
+        </li>
+        <hr class="menu-hr">
+        <li class="list__item">
+          <a class="list__item-link" href="#">
+            additional <br> services <br>
+            <img class="arrow" src="assets/images/arrow.svg" alt="">
+          </a>
+        </li>
+        <hr class="menu-hr">
+        <li class="list__item">
+          <a class="list__item-link" href="#">
+            BLOG <br>
+            <img class="arrow" src="assets/images/arrow.svg" alt="">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="menu__footer">
+      <div class="footer-top">
+        <a class="footer-logo" href="#">
+          <img src="./assets/images/darkLogo.png" alt="">
+        </a>
+        <p class="footer__title">turnkey construction of houses</p>
+        <img src="assets/images/longArrow.svg" alt="">
+      </div>
+      <div class="footer-bottom">
+        <ul class="footer-bottom__list">
+
+          <li class="footer__list-item">
+            <img src="assets/images/icons/mappin.svg" alt="">
+            <a href="#">Kiev, st. Knyazhiy Zaton 2/30</a>
+          </li>
+
+          <li class="footer__list-item">
+            <img src="assets/images/icons/clock.svg" alt="">
+            <a href="#">Mon-Fri: 9:00 - 19:00, Sat: 10:00 - 17:00</a>
+          </li>
+
+          <li class="footer__list-item">
+            <img src="assets/images/icons/email.svg" alt="">
+            <a href="#">info@intol.net</a>
+          </li>
+
+          <li class="footer__list-item">
+            <img src="assets/images/icons/phone.svg" alt="">
+            <a href="#">+38 (044) 337 14 00</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="feedback">
     <form class="form">
-      <input class="form__input" type="text" placeholder="Your name">
+      <input class="form__input" type="text" placeholder="Ваше имя">
       <hr class="form-hr">
-      <input class="form__input" type="text" placeholder="Your phone number">
+      <input class="form__input" type="text" placeholder="Ваш телефон">
       <hr class="form-hr">
-      <button class="form__btn">discuss a project</button>
+      <button class="form__btn">Заказать звонок<img class="form__btn-arrow" src="assets/images/arrow.svg" alt=""></button>
     </form>
   </div>
 
@@ -154,8 +235,8 @@
       <!-- section - 6 -->
       <div class="swiper-slide">
         <section class="section-6">
-          <div class="opacity">
-
+          <div class="blur-filter">
+            
           </div>
         </section>
       </div>
