@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'BrunoAce-Regular';
+  src: url(../fonts/BrunoAce-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'OpenSans-SB';
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Roboto-M';
+  src: url('../fonts/Roboto-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'OpenSans-R';
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
