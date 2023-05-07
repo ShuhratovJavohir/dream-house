@@ -25,4 +25,11 @@
 @font-face {
   font-family: 'OpenSans-L';
   src: url(../fonts/OpenSans-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto-B';
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
 }

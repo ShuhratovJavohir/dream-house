@@ -1,255 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/style/main.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-</head>
+  <body>
+    <div class="sidebar">
+      <a class="logo" href="#">
+        <img src="./assets/images/icons/logo 5.svg" alt="" />
+      </a>
 
-<body>
+      <p class="sidebar__text">ремонт_квартир_под_ключ</p>
 
-  <div class="sidebar">
-    <a class="logo" href="#">
-      <img src="./assets/images/icons/logo 5.svg" alt="">
-    </a>
+      <span class="sidebar__hr"></span>
 
-    <p class="sidebar__text">
-      ремонт_квартир_под_ключ
-    </p>
-
-    <span class="sidebar__hr"></span>
-
-    <ul class="social__nav">
-      <li class="social__icon">
-        <a href="#"><img src="assets/images/icons/facebook.svg" alt="#"></a>
-      </li>
-      <li class="social__icon">
-        <a href="#"><img src="assets/images/icons/instagram.svg" alt="#"></a>
-      </li>
-      <li class="social__icon">
-        <a href="#"><img src="assets/images/icons/telegram.svg" alt="#"></a>
-      </li>
-      <li class="social__icon">
-        <a href="#"><img src="assets/images/icons/youtube.svg" alt="#"></a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="wrapper">
-    <div class="header">
-
-      <div class="header__left">
-        <div class="burger">
-          <span class="burger-1"></span>
-          <span class="burger-2"></span>
-          <span class="burger-3"></span>
-        </div>
-        <a class="tel__link" href="tel:+998977382900">+38 (097) 987 78 88</a>
-      </div>
-
-      <div class="header__rigth">
-        <button class="call" id="call">Заказать звонок</button>
-        <div class="tel" >
-          <div class="call__circle-1">
-            <div class="call__circle-2">
-              <img id="call" class="tel__icon" src="assets/images/icons/tel.svg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="callBlock">
-    <form class="call-form">
-      <input class="call__input" type="text" placeholder="Ваше имя">
-      <hr class="form-hr">
-      <input class="call__input" type="text" placeholder="Ваш телефон">
-      <hr class="form-hr">
-      <button class="call__btn">Заказать звонок<img class="call__btn-arrow" src="assets/images/arrow.svg" alt=""></button>
-    </form>
-  </div>
-  
-  <div class="menu">
-    <nav class="menu__nav">
-      <ul class="menu__nav-list">
-        <li class="list__item">
-          <a class="list__item-link" href="#">
-            styles of <br> rennovation <br>
-            <img class="arrow" src="assets/images/arrow.svg" alt="">
-          </a>
+      <ul class="social__nav">
+        <li class="social__icon">
+          <a href="#"><img src="assets/images/icons/facebook.svg" alt="#" /></a>
         </li>
-        <hr class="menu-hr">
-        <li class="list__item">
-          <a class="list__item-link" href="#">
-            Costs <br>
-            <img class="arrow" src="assets/images/arrow.svg" alt="">
-          </a>
+        <li class="social__icon">
+          <a href="#"
+            ><img src="assets/images/icons/instagram.svg" alt="#"
+          /></a>
         </li>
-        <hr class="menu-hr">
-        <li class="list__item">
-          <a class="list__item-link" href="#">
-            5 steps <br> to DREAM HOUSE <br>
-            <img class="arrow" src="assets/images/arrow.svg" alt="">
-          </a>
+        <li class="social__icon">
+          <a href="#"><img src="assets/images/icons/telegram.svg" alt="#" /></a>
         </li>
-        <hr class="menu-hr">
-        <li class="list__item">
-          <a class="list__item-link" href="#">
-            additional <br> services <br>
-            <img class="arrow" src="assets/images/arrow.svg" alt="">
-          </a>
-        </li>
-        <hr class="menu-hr">
-        <li class="list__item">
-          <a class="list__item-link" href="#">
-            BLOG <br>
-            <img class="arrow" src="assets/images/arrow.svg" alt="">
-          </a>
+        <li class="social__icon">
+          <a href="#"><img src="assets/images/icons/youtube.svg" alt="#" /></a>
         </li>
       </ul>
-    </nav>
-    <div class="menu__footer">
-      <div class="footer-top">
-        <a class="footer-logo" href="#">
-          <img src="./assets/images/darkLogo.png" alt="">
-        </a>
-        <p class="footer__title">turnkey construction of houses</p>
-        <img src="assets/images/longArrow.svg" alt="">
+    </div>
+
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__left">
+          <div class="burger">
+            <span class="burger-1"></span>
+            <span class="burger-2"></span>
+            <span class="burger-3"></span>
+          </div>
+          <a class="tel__link" href="tel:+998977382900">+38 (097) 987 78 88</a>
+        </div>
+
+        <div class="header__rigth">
+          <button class="call tel-call">Заказать звонок</button>
+          <div class="tel tel-call">
+            <div class="call__circle-1">
+              <div class="call__circle-2">
+                <img
+                  class="tel__icon"
+                  src="assets/images/icons/tel.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="footer-bottom">
-        <ul class="footer-bottom__list">
+    </div>
 
-          <li class="footer__list-item">
-            <img src="assets/images/icons/mappin.svg" alt="">
-            <a href="#">Kiev, st. Knyazhiy Zaton 2/30</a>
+    <div class="callBlock">
+      <form class="call-form">
+        <input class="call__input" type="text" placeholder="Ваше имя" />
+        <hr class="form-hr" />
+        <input class="call__input" type="text" placeholder="Ваш телефон" />
+        <hr class="form-hr" />
+        <button class="call__btn">
+          Заказать звонок<img
+            class="call__btn-arrow"
+            src="assets/images/arrow.svg"
+            alt=""
+          />
+        </button>
+      </form>
+    </div>
+
+    <div class="menu">
+      <nav class="menu__nav">
+        <ul class="menu__nav-list">
+          <li class="list__item">
+            <a class="list__item-link" href="#">
+              styles of <br />
+              rennovation <br />
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+            </a>
           </li>
-
-          <li class="footer__list-item">
-            <img src="assets/images/icons/clock.svg" alt="">
-            <a href="#">Mon-Fri: 9:00 - 19:00, Sat: 10:00 - 17:00</a>
+          <hr class="menu-hr" />
+          <li class="list__item">
+            <a class="list__item-link" href="#">
+              Costs <br />
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+            </a>
           </li>
-
-          <li class="footer__list-item">
-            <img src="assets/images/icons/email.svg" alt="">
-            <a href="#">info@intol.net</a>
+          <hr class="menu-hr" />
+          <li class="list__item">
+            <a class="list__item-link" href="#">
+              5 steps <br />
+              to DREAM HOUSE <br />
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+            </a>
           </li>
-
-          <li class="footer__list-item">
-            <img src="assets/images/icons/phone.svg" alt="">
-            <a href="#">+38 (044) 337 14 00</a>
+          <hr class="menu-hr" />
+          <li class="list__item">
+            <a class="list__item-link" href="#">
+              additional <br />
+              services <br />
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+            </a>
           </li>
-
+          <hr class="menu-hr" />
+          <li class="list__item">
+            <a class="list__item-link" href="#">
+              BLOG <br />
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+            </a>
+          </li>
         </ul>
+      </nav>
+      <div class="menu__footer">
+        <div class="footer-top">
+          <a class="footer-logo" href="#">
+            <img src="./assets/images/darkLogo.png" alt="" />
+          </a>
+          <p class="footer__title">turnkey construction of houses</p>
+          <img src="assets/images/longArrow.svg" alt="" />
+        </div>
+        <div class="footer-bottom">
+          <ul class="footer-bottom__list">
+            <li class="footer__list-item">
+              <img src="assets/images/icons/mappin.svg" alt="" />
+              <a href="#">Kiev, st. Knyazhiy Zaton 2/30</a>
+            </li>
+
+            <li class="footer__list-item">
+              <img src="assets/images/icons/clock.svg" alt="" />
+              <a href="#">Mon-Fri: 9:00 - 19:00, Sat: 10:00 - 17:00</a>
+            </li>
+
+            <li class="footer__list-item">
+              <img src="assets/images/icons/email.svg" alt="" />
+              <a href="#">info@intol.net</a>
+            </li>
+
+            <li class="footer__list-item">
+              <img src="assets/images/icons/phone.svg" alt="" />
+              <a href="#">+38 (044) 337 14 00</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="feedback">
-    <form class="form">
-      <input class="form__input" type="text" placeholder="Ваше имя">
-      <hr class="form-hr">
-      <input class="form__input" type="text" placeholder="Ваш телефон">
-      <hr class="form-hr">
-      <button class="form__btn">Заказать звонок<img class="form__btn-arrow" src="assets/images/arrow.svg" alt=""></button>
-    </form>
-  </div>
-
-  <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-
-      <!-- section - 1 -->
-      <div class="swiper-slide">
-        <section class="section-1">
-          <div class="opacity">
-            <div class="section-1__content">
-              <img class="slogan" src="assets/images/slogan.png" alt="">
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <!-- section - 2 -->
-      <div class="swiper-slide">
-        <section class="section-2">
-          <div class="opacity">
-
-          </div>
-        </section>
-      </div>
-      <!-- section - 3 -->
-      <div class="swiper-slide z-index">
-        <section class="section-3">
-          <div class="section-3__items">
-
-            <div class="section-3__item elite">
-              <div class="opacity section-3__content">
-                <h3 class="section-3__name circle__elite">elite</h3>
-                <p class="section-3__subtitle">THE elite STYLE INCLUDES AN EXTENDED SET OF WORKS. SUITABLE FOR THOSE WHO
-                  WANTS TO GET THE PERFECT RESULT. </p>
-              </div>
-            </div>
-
-            <div class="section-3__item vip">
-              <div class="opacity section-3__content">
-                <h3 class="section-3__name circle__vip">vip</h3>
-                <p class="section-3__subtitle">THE VIP STYLE INCLUDES AN EXTENDED SET OF WORKS. SUITABLE FOR THOSE WHO
-                  WANTS TO GET THE PERFECT RESULT. </p>
-              </div>
-            </div>
-
-            <div class="section-3__item extra">
-              <div class="opacity section-3__content">
-                <h3 class="section-3__name circle__extra">extra</h3>
-                <p class="section-3__subtitle">THE extra STYLE INCLUDES AN EXTENDED SET OF WORKS. SUITABLE FOR THOSE WHO
-                  WANTS TO GET THE PERFECT RESULT. </p>
-              </div>
-            </div>
-
-          </div>
-
-        </section>
-      </div>
-      <!-- section - 4 -->
-      <div class="swiper-slide">
-        <section class="section-4">
-          <div class="opacity">
-
-          </div>
-        </section>
-      </div>
-      <!-- section - 5 -->
-      <div class="swiper-slide">
-        <section class="section-5">
-          <div class="opacity">
-
-          </div>
-        </section>
-      </div>
-      <!-- section - 6 -->
-      <div class="swiper-slide">
-        <section class="section-6">
-          <div class="blur-filter">
-            
-          </div>
-        </section>
-      </div>
-
+    <div class="feedback">
+      <form class="form">
+        <input class="form__input" type="text" placeholder="Ваше имя" />
+        <hr class="form-hr" />
+        <input class="form__input" type="text" placeholder="Ваш телефон" />
+        <hr class="form-hr" />
+        <button class="form__btn">
+          Заказать звонок<img
+            class="form__btn-arrow"
+            src="assets/images/arrow.svg"
+            alt=""
+          />
+        </button>
+      </form>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
 
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- section - 1 -->
+        <div class="swiper-slide">
+          <section class="section-1">
+            <div class="opacity">
+              <div class="section-1__content">
+                <img class="slogan" src="assets/images/slogan.png" alt="" />
+              </div>
+            </div>
+          </section>
+        </div>
 
-  <!-- only JavaScript -->
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="js/swiper.js"></script>
-</body>
+        <!-- section - 2 -->
+        <div class="swiper-slide">
+          <section class="section-2">
+            <div class="opacity">
+              <div class="section-content">
+                <h2 class="section-2__title">
+                  elite renovation of your apartment
+                </h2>
+                <div class="section-2__list">
+                  <ul class="menu__nav-list">
+                    <li class="section-2__list__item">
+                      <h2 class="section-2__list__title">18</h2>
+                      <p class="section-2__list__subtitle">years on the market</p>
+                    </li>
 
+                    <hr class="menu-hr" />
+
+                    <li class="section-2__list__item">
+                      <h2 class="section-2__list__title">237</h2>
+                      <p class="section-2__list__subtitle">completed projects</p>
+                    </li>
+
+                    <hr class="menu-hr" />
+
+                    <li class="section-2__list__item">
+                      <h2 class="section-2__list__title">50</h2>
+                      <p class="section-2__list__subtitle">employees</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- section - 3 -->
+        <div class="swiper-slide z-index">
+          <section class="section-3">
+            <div class="section-3__items">
+              <div class="section-3__item elite">
+                <div class="opacity section-3__content">
+                  <h3 class="section-3__name circle__elite">elite</h3>
+                  <p class="section-3__subtitle">
+                    THE elite STYLE INCLUDES AN EXTENDED SET OF WORKS. SUITABLE
+                    FOR THOSE WHO WANTS TO GET THE PERFECT RESULT.
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-3__item vip">
+                <div class="opacity section-3__content">
+                  <h3 class="section-3__name circle__vip">vip</h3>
+                  <p id="vip" class="section-3__subtitle">
+                    THE VIP STYLE INCLUDES AN EXTENDED SET OF WORKS. SUITABLE
+                    FOR THOSE WHO WANTS TO GET THE PERFECT RESULT.
+                  </p>
+                </div>
+              </div>
+
+              <div class="section-3__item extra">
+                <div class="opacity section-3__content">
+                  <h3 class="section-3__name circle__extra">extra</h3>
+                  <p class="section-3__subtitle">
+                    THE extra STYLE INCLUDES AN EXTENDED SET OF WORKS. SUITABLE
+                    FOR THOSE WHO WANTS TO GET THE PERFECT RESULT.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- section - 4 -->
+        <div class="swiper-slide">
+          <section class="section-4">
+            <div class="opacity"></div>
+          </section>
+        </div>
+        <!-- section - 5 -->
+        <div class="swiper-slide">
+          <section class="section-5">
+            <div class="opacity"></div>
+          </section>
+        </div>
+        <!-- section - 6 -->
+        <div class="swiper-slide">
+          <section class="section-6">
+            <div class="blur-filter"></div>
+          </section>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- only JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+  </body>
 </html>

@@ -42,7 +42,7 @@
   border: 1px solid rgba(255, 255, 255, .3);
   display: inline-block;
   position: relative;
-  bottom: 9px;
-  right: 9px;
+  bottom: 10px;
+  right: 10px;
   border-radius: 50px;
 }
